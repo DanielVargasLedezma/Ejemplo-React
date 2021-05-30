@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './Vista/img/logo.svg';
+import './Vista/css/App.css';
 
 function App() {
   return (
