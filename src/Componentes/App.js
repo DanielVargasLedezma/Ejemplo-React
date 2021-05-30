@@ -1,6 +1,8 @@
 import logo from './../Vista/img/logo.svg';
 import './../Vista/css/App.css';
 
+import Icono from './SVG'
+
 function App() {
   return (
     <div className="App">
@@ -9,6 +11,7 @@ function App() {
         <p>
           Hola mundo.
         </p>
+        <Icono class = 'Derecha' />
         <a
           className="App-link"
           href="https://reactjs.org"
