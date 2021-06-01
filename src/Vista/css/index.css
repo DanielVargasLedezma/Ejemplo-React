@@ -8,6 +8,71 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+main.Error{
+  margin-top: 5rem;
+  text-align: center;
+}
+
+main{
+  text-align: center;
+}
+
+.navbar{
+  list-style-type: none;
+  overflow: hidden;
+  
+}
+
+.navbar li{
+  border-right: azure solid 0.01rem;
+}
+
+.navbar li:last-child{
+  border-right: none;
+}
+
+.navbar li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 165%;
+  transition: 300ms all;
+  margin: 0px auto;
+}
+
+.navbar a:hover{
+  color: rgb(0, 183, 255);
+}
+
+.header{
+  background-color: darkslategrey;
+  color: aliceblue;
+  position: sticky;
+  text-align: center;
+  border-bottom: azure solid 0.5rem;
+}
+
+.header img{
+  width: 20%;
+  animation: rotate infinite 30s linear;
+}
+
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }to{
+    transform: rotate(360deg);
+  }
+}
+
+svg{
+  width: 3rem;
+  height: 3rem;
+  transition: 300ms all;
+}
+
+svg:hover{
+  color: black;
 }
