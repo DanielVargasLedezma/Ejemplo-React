@@ -1,17 +1,16 @@
-import './Vista/css/App.css';
+import React, {Fragment} from 'react';
 
 import Router from './Router'
-import React from 'react';
 
 function App() {
   return (
-    <React.Fragment>
+    <Fragment>
       
     
       <Router/>
       
 
-    </React.Fragment>
+    </Fragment>
   );
 }
 

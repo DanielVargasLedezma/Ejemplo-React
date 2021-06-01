@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Vista/css/index.css';
+import './Vista/css/style.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
