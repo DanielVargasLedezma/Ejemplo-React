@@ -7,7 +7,11 @@ function App() {
     <Fragment>
       
     
-      <Router/>
+      <Router
+        link_1 = '/'              
+        link_2 = '/usos'  
+        link_3 = 'https://reactjs.org'
+      />
       
 
     </Fragment>

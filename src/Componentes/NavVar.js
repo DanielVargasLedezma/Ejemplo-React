@@ -34,7 +34,7 @@ class NavVar extends Component{
                                 <NavLink to = {this.props.url_2} target = {this.props.target_2}> {this.props.enlance_2} </NavLink>
                             </li>
                             <li className = "col-md-4 col-sm-4 col-xs-4">
-                                <NavLink to = {this.props.url_3} target = {this.props.target_3}> {this.props.enlance_3} </NavLink>
+                                <a href = {this.props.url_3} target = {this.props.target_3}> {this.props.enlance_3} </a>
                             </li>
                         </ul>
                     </div>

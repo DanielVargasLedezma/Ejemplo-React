@@ -18,6 +18,20 @@ main.Error{
 
 main{
   text-align: center;
+  background-color:floralwhite;
+}
+
+.Descripcion{
+  background-color: lightskyblue;
+  border-bottom: darkslategrey solid 0.2rem;
+}
+
+footer{
+  text-align: center;
+  background-color: darkslategrey;
+  color: aliceblue;
+  margin: 0px auto;
+  font-size: 115%;
 }
 
 .navbar{
@@ -51,7 +65,12 @@ main{
   color: aliceblue;
   position: sticky;
   text-align: center;
-  border-bottom: azure solid 0.5rem;
+  border-bottom: rgb(0, 183, 255) solid 0.2rem;
+}
+
+#header{
+  position: sticky;
+
 }
 
 .header img{
