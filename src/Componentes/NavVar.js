@@ -9,23 +9,21 @@ class NavVar extends Component{
             <header id = "header">
                 <section className = "d-flex flex-row justify-content-between align-items-center header">
                     <div className = "col-md-4 col-sm-4 col-xs-4" id = "logo">
-                        <section className = "d-flex flex-row justify-content-between align-items-center">
-                            <div className = "col-md-6 col-sm-6 col-xs-6">
-
+                        <section className = "d-flex flex-column  justify-content-between align-items-center">
+                            <div>
+                                <img src = {logo} alt = "Logo-React" className = "Logo"/>   
                             </div>
-                            <div className = "col-md-6 col-sm-6 col-xs-6">
-                                
+                            <div>
+                                <span className = "titulo">
+                                    <h2>
+                                        <strong> {this.props.titulo} </strong>
+                                    </h2>
+                                </span>
                             </div>
                         </section>
-                        <img src = {logo} alt = "Logo-React" className = "Logo"/>
-                        <span className = "titulo">
-                            <h2>
-                                <strong> {this.props.titulo} </strong>
-                            </h2>
-                        </span>
                     </div>
-                    <div className = "col-md-2 col-sm-2 col-xs-2"></div>
-                    <div className = "col-md-6 col-sm-6 col-xs-6">
+                    <div className = "col-md-2 col-sm-1 col-xs-1"></div>
+                    <div className = "col-md-6 col-sm-7 col-xs-7">
                         <ul className = "d-flex flex-row  align-items-center navbar">
                             <li className = "col-md-4 col-sm-4 col-xs-4">
                                 <NavLink to = {this.props.url_1} target = {this.props.target_1}> {this.props.enlance_1} </NavLink>

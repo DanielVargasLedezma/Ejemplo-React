@@ -12,8 +12,8 @@ class Usos extends Component{
                     text_2 = 'Aqui se pueden encontrar usos de React'
                 />
                 <div className = "d-flex flex-row justify-content-between align-items-center Usos">
-                    <div className ="col-md-2 col-sm-2 col-xs-2"></div>
-                    <div className ="col-md-8 col-sm-8 col-xs-8">
+                    <div className ="col-md-2 col-sm-1 col-xs-1"></div>
+                    <div className ="col-md-4 col-sm-5 col-xs-5">
                         <br/>
                         <br/>
                         <h1>Bienvenido a Usos</h1>
@@ -21,7 +21,15 @@ class Usos extends Component{
                         <br/>
                         <br/>
                     </div>
-                    <div className ="col-md-2 col-sm-2 col-xs-2"></div>
+                    <div className ="col-md-4 col-sm-5 col-xs-5">
+                        <br/>
+                        <br/>
+                        <h1>Bienvenido a Usos</h1>
+                        <h2>Soy el componente Usos</h2>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div className ="col-md-2 col-sm-1 col-xs-1"></div>
                 </div>
             </Fragment>
         );
